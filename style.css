@@ -1,0 +1,257 @@
+* {
+    font-family: poppins;
+    margin: 0px;
+}
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+#menu {
+    text-align: right;
+    margin-top: 49px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#contentText h1 {
+    width: 430px;
+    height: 166px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 120px;
+    font-size: 55px;
+
+}
+
+#contentText p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #575455;
+    margin-top: 20px;
+}
+
+#woman {
+    width: 100%;
+    gap: 0px;
+    opacity: 0px;
+    padding-right: 0;
+
+}
+
+#contentImg {
+    padding-top: 92px;
+    text-align: right;
+}
+
+button {
+    margin-top: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    background: #1F7CFF;
+    color: #FFFFFF;
+    width: 180px;
+    height: 48px;
+    left: 160px;
+    gap: 0px;
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+#textClient {
+    margin-top: 49px;
+    margin-bottom: 49px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.client {
+    margin-top: 49px;
+    margin-bottom: 49px;
+    align-items: center;
+    text-align: center;
+}
+
+#services h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #F75C4E;
+    margin-top: 69px;
+}
+
+#services h1 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+
+}
+
+#services p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #575455;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.servicesContent h1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.servicesContent p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #575455;
+    margin-top: 10px;
+}
+
+.servicesContent {
+    text-align: center;
+}
+
+#workImg {
+    width: 450px;
+    margin-top: 92px;
+    padding-right: 10px;
+}
+
+#emailContent h2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 100px;
+    color: #F75C4E;
+}
+
+#emailContent h1 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 0px;
+
+}
+
+#emailContent p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 0px;
+    color: #575455
+}
+
+input {
+    background-color: #F5F6FB;
+    border-radius: 50px;
+    border: 0px;
+    height: 48px;
+    margin-left: 0px;
+    width: 380px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+#emailImg {
+    width: 490px;
+}
+
+#portfolio h2{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+color: #F75C4E;
+margin-top: 80px;
+}
+
+#portfolio h1{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 700;
+text-align: left;
+margin-bottom: 60px;
+}
+
+.portfolioImg{
+    width: 250px;
+}
+
+.portfolioDiv{
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+#emailButton{
+    margin-top: 20px;
+}
